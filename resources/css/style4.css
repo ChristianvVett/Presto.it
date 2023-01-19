@@ -1,0 +1,66 @@
+footer{
+	background: linear-gradient(180deg, #000, #170f26);
+}
+
+.logo{
+	width: 200px;
+	margin-bottom: 30px;
+}
+
+.copyright{
+	text-align: center;
+	font-size: clamp(.65rem, 1.6vw, .8rem);
+    font-weight: 300;
+    color: var(--c-light-grey);
+}
+
+
+.inseremail{
+	padding-bottom: 15px;
+}
+
+.icons-container{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 40px;
+	font-size: 20px;
+	color: #000;
+	background: #fff;
+	margin-right: 15px;
+	cursor: pointer;
+	margin-top: 15px;
+}
+
+h3{
+	color: #fff;
+}
+
+p{
+	color: #fff;
+}
+
+.lavora{
+	color: #fff;
+	justify-content: center;
+	/* text-decoration: none; */
+}
+
+.scritte{
+	color: #fff;
+	text-decoration: none;
+	transition: all .5s;
+}
+
+.linea-divisione{
+	color: white;
+}
+
+li{
+	list-style: none;
+}
+
+h4{
+	color: #fff;
+}

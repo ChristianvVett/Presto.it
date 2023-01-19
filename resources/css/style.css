@@ -1,0 +1,285 @@
+:root{
+    --main-color : rgb(22, 30, 39);
+    --nav2-color : rgb(37, 50, 65);
+    --c-secondary: rgb(251, 47, 32);
+    --btn-color : rgb(233, 233, 233);
+    --btn-active-color : rgb(204, 204, 204);
+}
+
+
+/* style form */
+.bg-back{
+    background-image: url('/public/media/astronauta7.jpg');
+    background-repeat:repeat ;
+    height: auto;
+    /* background:linear-gradient( rgba(171, 172, 173, 0.7), rgba(172, 172, 172, 0.3)); */
+    /* border-radius: 2%; */
+    background-size: contain;
+    background-position: center;
+    
+}
+.left-red{
+    color: rgb(7, 4, 28);
+    border-left: 2px solid rgb(211, 46, 46);
+}
+
+.btn-color-text{
+    color: white;
+    border-color: rgb(251, 47, 32);
+}
+
+.btn-color-text:hover{
+    color: rgb(251, 47, 32);
+    border-color: white;
+}
+
+.btn-back{
+    background-color: rgb(22, 30, 39);
+    border: rgb(22, 30, 39);
+    border-radius: 15%;
+    position: absolute;
+    top: 100px; left: 56px;
+}
+
+
+.btn-color-text{
+    color: white;
+    border-color: rgb(251, 47, 32);
+}
+
+.btn-color-text:hover{
+    color: rgb(251, 47, 32);
+    border-color: white;
+}
+
+.btn-save{
+    background-color: rgb(22, 30, 39);
+    border: rgb(22, 30, 39);
+    border-radius: 15%;
+    position: absolute;
+}
+
+/* .btn-save{
+    background-color: rgb(22, 30, 39);
+    border: rgb(22, 30, 39);
+    border-radius: 15%;
+    position: absolute;
+
+} */
+
+/* .btn-save{
+    color: white;
+    border-color: rgb(251, 47, 32);
+} */
+
+/* .btn-save:hover{
+    color: rgb(251, 47, 32);
+    border-color: white;
+} */
+
+
+/* 
+    ? LOGIN/REGISTER FORM
+*/
+
+.form-container{
+    
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    background: var(--c-white);
+}
+
+.form{
+    padding: 0 .5rem;
+    border: 2px solid var(--main-color);
+    /* border-radius: 10px; */
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: transparent; */
+    background-color:rgba(233, 233, 233,0.2 );
+    
+}
+
+.form2{
+    padding: 0.5rem;
+    border: 2px solid rgb(225, 225, 225);
+    /* border-radius: 10px; */
+    box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* background-color: transparent; */
+    background-color:rgba(26, 38, 52, 0.9);
+    border-radius: 10px;
+}
+
+.form-title{
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: .5rem;
+    color: var(--c-secondary);
+    /* text-shadow: 2px 2px black; */
+}
+
+.input-container{
+    margin: 0 auto;
+}
+
+.form-label{
+    margin-bottom: 0;
+}
+
+.form-control{
+    padding: .2rem .5rem;
+}
+
+.btn-register{
+    background-color: rgb(251, 47, 32);
+    border-color: inherit;
+    cursor: pointer;
+}
+
+.btn-register:hover,
+.btn-register:focus{
+    background: var(--c-secondary);
+    border-color: inherit;
+}
+
+.btn-login{
+    background-color: rgb(251, 47, 32);
+    border-color: inherit;
+    cursor: pointer;
+}
+
+.btn-login:hover,
+.btn-login:focus{
+    background: var(--main-color);
+    border-color: inherit;
+}
+
+.register-redirect{
+    color: var(--c-secondary);
+}
+
+.register-redirect,
+.login-redirect{
+    font-weight: 700;
+    text-decoration: none;
+    transition: color .5s;
+}
+
+.login-redirect{
+    color: var(--c-main);
+}
+
+.register-redirect:hover{
+    color: var(--main-color);
+}
+
+.login-redirect:hover{
+    color: var(--c-secondary);
+}
+/* register */
+.bg_img_register{
+    background-image:linear-gradient(rgba(22, 30, 39,0.5),rgba(22, 30, 39,0),rgba(22, 30, 39,0),rgba(22, 30, 39,0.6)), url(/public/media/razzoBlu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.bg_img_login{
+    background-image:linear-gradient(rgba(22, 30, 39,0.5),rgba(22, 30, 39,0),rgba(22, 30, 39,0),rgba(22, 30, 39,0.6)), url(/public/media/razzoGiallo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.dimension_back{
+    width: 100%;
+    height: 100vh;
+}
+
+/* grandezza foto preview */
+.img-preview{
+    width: 300px;
+    /* border: 3px solid red; */
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* sezione revisore */
+.showCarousel2 .carousel-control-prev-icon{
+    border-radius: 20%;
+    background-color: #170F26;
+}
+.showCarousel2 .carousel-control-next-icon{
+    border-radius: 20%;
+    background-color: #170F26;
+}
+.flags_style{
+    border: 1px solid rgba(0,0,0,0);
+    text-decoration: none;   
+    
+}
+.flags_style:hover{
+    border-color: rgba(7, 77, 157, 0.5);
+    background-color: rgba(94, 159, 234, 0.9);
+}
+
+
+.dim_carousel{
+    width: 100px;
+}
+
+/* mail */
+.style_mail{
+    /* background-image: url(/public/media/razzoregistrazione.jpg); */
+    height: 60vh;
+    background-position:left;
+    /* background-size: contain; */
+    /* background-repeat: repeat; */
+}
+.border-mail{
+    text-decoration: underline 4px rgb(251, 47, 32);
+}
+
+.stile_mail2{
+    /* background-image: url(/public/media/sfondo_mail.jpg); */
+    border: 1px solid brown;
+    background-color: rgba(225,225,225, 0.2);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -150px;
+    color: white;
+   
+}
+
+.stile_mail3{
+    color: white;
+}
+
+.stile_mail4{
+    color: grey;
+}
+
+.btn-logout{
+    color: white;
+    border-style: double;
+    border-color: brown;
+}
+
+.btn-logout:hover{
+    color: brown;
+    border-style: double;
+    border-color: white;
+}
+
+.bg_mail_verified{
+    background:linear-gradient(rgb(22, 30, 39),rgb(251, 47, 32),rgb(22, 30, 39));
+    height: 100vh;
+}
+

@@ -1,0 +1,50 @@
+<?php
+
+return [
+         // message error form - da tradurre
+         'title'=>'Das Feld "Titel" ist erforderlich',
+         'description'=>'Das Feld "Beschreibung" ist erforderlich',
+         'price'=>'Das Feld "Preis" ist erforderlich',
+         'category'=>'Das Feld "Kategorien" ist erforderlich',
+         'min'=>'Das Feld "Beschreibung" muss mindestens 15 Buchstaben enthalten.',
+         'numeric'=>'Das Feld "Preis" muss numerisch sein',
+         'temporary_images.required'=> 'Das Bild is erforderlich',
+         'temporary_images.*.image'=> 'Die Files muss Bilden sein',
+         'temporary_images.*.max'=> 'Das Bild darf maximal 1 MB groß sein',
+         'images.image'=> 'Das Bild muss ein Bild sein',
+         'images.max'=> 'Das Bild darf maximal 1 MB groß sein',
+         
+         //autentication errors - da tradurre
+         'email'=>'Die E-Mail muss eine gültige E-Mail-Adresse sein',
+         'password'=>'Das Passwort ist erforderlich',
+         'password_confirmation'=>'Es ist notwendig, das Passwort zu bestätigen', 
+         'name'=>'Das Feld "Titel" ist erforderlich',
+ 
+         // Category list
+         'Alimentari e cura della casa'=> 'Lebensmittel und Haushaltspflege',
+         'App e Giochi'=>'Apps und Spiele', 
+         'Audiolibri'=>'Hörbücher', 
+         'Auto e Moto'=>'Auto und Motorrad', 
+         'Bellezza'=>'Schönheitspflege', 
+         'Buoni Regalo'=>'Gutscheinen', 
+         'Cancelleria'=>'Lehrnmaterial', 
+         'Casa e Cucina'=>'Haus und Kochmaterial', 
+         'CD e Vinili'=>'CDs und Schallplatten', 
+         'Elettronica'=>'Elektronik', 
+         'Fai da te'=>'Selbermachen', 
+         'Film e TV'=>'Films und Fernseher', 
+         'Giardino e Giardinaggio'=>'Gӓrten und Gӓrtnerei', 
+         'Giochi e Giocattoli'=>'Spiele und Spielware', 
+         'Grandi elettrodomestici'=>'Grosse Haushaltsgerӓte', 
+         'Illuminazione'=>'Beleuchtung', 
+         'industria'=>'Betrieb', 
+         'Informatica'=>'Informatik', 
+         'Libri'=>'Bücher', 
+         'Moda'=>'Mode', 
+         'Salute e cura della persona'=>'Gesundheit und Pflege', 
+         'Software'=>'Software', 
+         'Sport e tempo libero'=>'Sport und Freizeit', 
+         'Strumenti musicali e DJ'=>'Musikinstrumente und DJ', 
+         'Valigie e accessori viaggio'=>'Koffer und Zubehörer',
+         'Videogiochi'=>'Games',
+];
